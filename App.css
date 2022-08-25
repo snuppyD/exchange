@@ -1,0 +1,235 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+body {
+  background-color: black;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+button.btn1:hover {
+  background: #ffe9e9;
+  transform: translate(0, 0.25em);
+}
+button.btn1:hover::before {
+  box-shadow: 0 0 0 2px #1dc917, 0 0.5em 0 0 #1dc917;
+  transform: translate3d(0, 0.5em, -1em);
+}
+button.btn2:hover {
+  background: #ffe9e9;
+  transform: translate(0, 0.25em);
+}
+button.btn2:hover::before {
+  box-shadow: 0 0 0 2px #1dc917, 0 0.5em 0 0 #1dc917;
+  transform: translate3d(0, 0.5em, -1em);
+}
+button.btn2:hover {
+  background: #ffe9e9;
+  transform: translate(0, 0.25em);
+}
+button.btn2:hover::before {
+  box-shadow: 0 0 0 2px #1dc917, 0 0.5em 0 0 #1dc917;
+  transform: translate3d(0, 0.5em, -1em);
+}
+button.btn3:hover {
+  background: #ffe9e9;
+  transform: translate(0, 0.25em);
+}
+button.btn3:hover::before {
+  box-shadow: 0 0 0 2px #1dc917, 0 0.5em 0 0 #1dc917;
+  transform: translate3d(0, 0.5em, -1em);
+}
+.btn1 {
+  background: #1dc917;
+  margin-right: 10px;
+  border: 1px white;
+    cursor: pointer;
+}
+.btn2 {
+  border: 1px white;
+  background: #1dc917;
+  cursor: pointer;
+}
+.btn3 {
+  border: 1px white;
+  background: #1dc917;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.head {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+p {
+  color: white;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  border: 2px solid brown;
+  color: white;
+box-sizing: border-box;
+margin: 8px;
+min-width: 10px;
+padding: 20px 20px 20px;
+}
+.form-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+Input {
+  color: brown;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  margin-right: 50px;
+}
+.forma{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(9, 20, 36);
+  width: 30%;
+  margin-left: 36%;
+}
+.frm {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  padding: 10px;
+  border: 1px, seagreen;
+}
+.form-input2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 10%;
+}
+.input-name {
+  display: flex;
+  justify-content: center;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.binance-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 277px;
+}
+.binance-price {
+  padding-left: 25px;
+}
+.binance-volume {
+  padding-left: 140px;
+}
+.kuna-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 277px;
+}
+.kuna-price {
+  padding-right: 80px;
+}
+.kuna-volume {
+  padding-right: 50px;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 90px;
+}
+.header2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-left: 80px;
+}
+.binance-data {
+  display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+}
+.binance-data-content {
+  display: flex;
+  flex-direction: row;
+}
+.binance-ask {
+  display: flex;
+  flex-direction: row;
+}
+.binance-ask-volume{
+  color: red;
+}
+.binance-ask-price{
+  color: red;
+  margin-right: 5em;
+}
+.binance-bids-price{
+  color: green;
+  margin-right: 5em;
+}
+.binance-bids-volume{
+  color: green;
+}
+.kuna-data {
+  display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 200px;
+    color: white;
+}
+.kuna-data-content {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+.kuna-ask-price {
+  color: red;
+}
+.kuna-ask-volume {
+  color: red;
+  margin-left: 50px;
+}
+.kuna-bids-price{
+  color: green;
+
+}
+.kuna-bids-volume{
+  color: green;
+  margin-left: 50px;
+}
+.Calculate{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: yellow;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.calc {
+  margin-left: 110px;
+  margin-right: 180px;
+}
